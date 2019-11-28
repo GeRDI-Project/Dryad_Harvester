@@ -1,0 +1,25 @@
+{
+    "Submission": {
+        "parameters": [
+            {
+                "key": "url",
+                "value": "http://elasticsearch-data.default.svc.cluster.local:9200/gerdi/metadata",
+                "type": "StringParameter"
+            }
+        ]
+    },
+    "OaiPmhETL": {
+        "parameters": [
+            {
+                "key": "hostUrl",
+                "value": "http://api.datadryad.org/oai/request",
+                "type": "StringParameter"
+            },
+            {
+                "key": "metadataPrefix",
+                "value": "oai_dc",
+                "type": "StringParameter"
+            }
+        ]
+    }
+}
